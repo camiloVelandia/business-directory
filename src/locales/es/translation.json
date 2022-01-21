@@ -1,0 +1,41 @@
+{
+    "buttons": {
+        "createBusiness": "Crear negocio",
+        "createPerson": "Crear persona",
+        "cancel": "Cancelar",
+        "create": "Crear",
+        "save": "Guardar",
+        "delete": "Borrar"
+    },
+    "business": {        
+        "dialog":{
+            "createTitle": "Crear negocio",
+            "placeholderName": "Nombre del negocio",
+            "editTitle": "Editar negocio",
+            "deleteTitle": "Borrar negocio",
+            "deleteText": "¿Estas seguro de borrar  "
+        },
+        "table":{
+            "name":"Negocio",
+            "actions": "Acciones"
+        }
+    },
+    "person": {
+        "dialog":{
+            "createTitle": "Crear una persona",
+            "placeholderName": "Nombre",
+            "placeholderJob": "Puesto",
+            "placeholderEmail": "Email",
+            "placeholderPhone": "Teléfono",
+            "placeholderDate": "Fecha de ingreso",
+            "editTitle": "Editar",
+            "deleteTitle": "Borrar",
+            "deleteText": "¿Estas seguro de borrar "
+        }
+    },
+    "error": {
+        "noItems": "No hay elementos que mostrar.",
+        "server": "Hay un problema con el servidor."
+    },
+    "loader": "Cargando..."
+}
