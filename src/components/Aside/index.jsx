@@ -1,4 +1,6 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
+
 import AsideItem from "../AsideItem";
 import bank from "../../assets/bank.svg";
 import bell from "../../assets/bell.svg";
@@ -9,15 +11,18 @@ import user from '../../assets/user.svg';
 import "./styles.css";
 
 const Aside = () => {
+
+  const { t } = useTranslation();
+
   return (
-    <aside className='aside'>
+    <aside className="aside">
       <ul>
-        <AsideItem logo={overview} text={"Overview"} />
-        <AsideItem logo={bank} text={"Tribal Pay"} />
-        <AsideItem logo={creditCard} text={"Tribal Credit"} />
-        <AsideItem logo={dollar} text={"Payments"} />
-        <AsideItem logo={bell} text={"Notifications"} />
-        <AsideItem logo={user} text={"Users"} />
+        <AsideItem logo={overview} text={t("aside.overview")} />
+        <AsideItem logo={bank} text={t("aside.pay")} />
+        <AsideItem logo={creditCard} text={t("aside.credit")} />
+        <AsideItem logo={dollar} text={t("aside.allpays")} />
+        <AsideItem logo={bell} text={t("aside.notificate")} />
+        <AsideItem logo={user} text={t("aside.users")} />
       </ul>
     </aside>
   );

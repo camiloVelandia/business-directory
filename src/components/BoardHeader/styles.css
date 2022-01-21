@@ -39,8 +39,9 @@
 
 @media only screen and (min-width: 768px) {
   .boardHeader{
-    padding-right: 44px;
+    padding-right: 14px;
     padding-left: 0;
+    margin-bottom: 40px;
   }
 
   .boardHeader__title{

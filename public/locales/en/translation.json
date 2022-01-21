@@ -1,0 +1,52 @@
+{
+  "buttons": {
+    "createBusiness": "Create business",
+    "createPerson": "Create person",
+    "cancel": "Cancel",
+    "create": "Create",
+    "save": "Save",
+    "remove": "Remove"
+  },
+  "business": {
+    "dialog": {
+      "createTitle": "Create buiseness",
+      "placeholderName": "Business name",
+      "editTitle": "Edit business",
+      "deleteTitle": "Delete business",
+      "deleteText": "Are you sure you to delete"
+    },
+    "table": {
+      "name": "Business",
+      "actions": "Actions"
+    }
+  },
+  "person": {
+    "dialog": {
+      "createTitle": "Create person",
+      "placeholderName": "Name",
+      "placeholderJob": "Role",
+      "placeholderEmail": "Email",
+      "placeholderPhone": "Phone",
+      "placeholderDate": "Join date",
+      "editTitle": "Edit person",
+      "deleteTitle": "Delete person",
+      "deleteText": "Are you sure you want to delete"
+    }
+  },
+  "aside": {
+    "overview": "Overview",
+    "pay": "Tribal pay",
+    "credit": "Tribal Credit",
+    "allpays": "Payments",
+    "notificate": "notifications",
+    "users": "users"
+  },
+  "footer": {
+    "support": "Support"
+  },
+  "error": {
+    "noItems": "There are no items.",
+    "server": "There is a problem with the server."
+  },
+  "loader": "Loading..."
+}
