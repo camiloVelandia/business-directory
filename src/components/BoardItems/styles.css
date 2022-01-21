@@ -1,0 +1,61 @@
+.boardItem{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 24px 49px 26px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #EFEEEE;
+}
+
+.boardItem__name{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.boardItem__role{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.boardItem__actions{
+  display: flex;
+  align-items: center;
+}
+
+.boardItem__actions button{
+  border:none;
+  background-color:transparent;
+  margin: 0 14px;
+  cursor: pointer;
+  transition:all ease 0.3s;
+}
+.boardItem__actions button:hover{
+  transform:scale(1.1);
+  transition:all ease 0.3s;
+}
+
+.boardItem__BusinessName{
+  text-align: left;
+  margin-bottom: 32px;
+}
+.boardItem__BusinessName label{
+  display:block;
+  font-size: 14px;
+  color: #6B6E74;
+  margin-bottom: 8px;
+}
+.boardItem__BusinessName input{
+  display:block;
+  font-size: 14px;
+  color: #1A1A1A;
+  font-weight: 600;
+  border:none;
+  background-color:#F8F8F8;
+  height: 44px;
+  width: 100%;
+}
+.boardItem__BusinessName input:focus{
+  outline: 1px solid rgba(0,0,0,0.5);
+}

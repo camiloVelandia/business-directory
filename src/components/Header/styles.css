@@ -1,0 +1,25 @@
+.header{
+  padding: 64px 40px ;
+  display: flex;
+  align-items: center;
+}
+
+.header__profile{
+  display: flex;
+  background-color: transparent;
+  border: none; 
+  align-items: center;
+  margin-left: 22px;
+  cursor: pointer;
+}
+.header__profile p{
+  border-radius: 50%;
+  padding:10px;
+  background-color:#1A1A1A;
+  color:#F6F6F6 ;
+  font-size: 14px;
+  font-weight: 600;
+}
+.header__profile img{
+  margin-left: 7px;
+}
